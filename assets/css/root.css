@@ -1,0 +1,107 @@
+:root {
+    /*-----------------------------font-size------------------------*/
+    --fs-sm: 12px;
+    --fs-md: 14px;
+    --fs-mmd: 16px;
+    --fs-2md: 18px;
+    --fs-lg: 18px;
+    --fs-llg: 24px;
+    --fs-2lg: 25px;
+    --fs-xl: 35px;
+    --fs-xxl: 20px;
+    --fs-2xl: 48px;
+    --fs-3xl:36px;
+}
+
+/*font size */
+.event{
+    font-size: var(--fs-xxl);
+}
+.home {
+    font-size: var(--fs-mmd);
+}
+.btn{
+    font-size: var(--fs-mmd);
+}
+.heading{
+    font-size: var(--fs-3xl);
+}
+.lorem{
+    font-size:var(--fs-lg);
+}
+.btn1 {
+    font-size: var(--fs-lg);
+}
+.learn {
+    font-size: var(--fs-lg);
+}
+.location {
+    font-size: var(--fs-lg);
+}
+.city {
+    font-size: var(--fs-md);
+}
+.cardbtn{
+    font-size: var(--fs-lg);
+}
+.make {
+    font-size: var(--fs-2xl);
+}
+.page {
+    font-size: var(--fs-mmd);
+}
+.card-head {
+    font-size: var(--fs-2lg);
+}
+.card-text {
+    font-size: var(--fs-mmd);
+}
+.dolar {
+    font-size: var(--fs-2xl);
+}
+.page1{
+    font-size: var(--fs-mmd);
+}
+.number {
+    font-size: var(--fs-xl);
+}
+.part{
+    font-size: var(--fs-2md);
+}
+.event1 {
+    font-size: var(--fs-2xl);
+}
+.more {
+    font-size: var(--fs-mmd);
+}
+.card-date {
+    font-size: var(--fs-md);
+}
+.card-name {
+    font-size: var(--fs-llg);
+}
+.join {
+    font-size: var(--fs-2xl);
+}
+.join-text {
+    font-size: var(--fs-mmd);
+}
+.sign {
+    font-size: var(--fs-xl);
+}
+.f-text {
+    font-size: var(--fs-md);
+}
+.more1 {
+    font-size: var(--fs-sm);
+}
+.company {
+    font-size: var(--fs-md);
+}
+@media(min-width:576px){
+ :root{
+    --fs-xxl: 36px;
+    --fs-3xl: 64px;
+    --fs-lg: 20px;
+}
+}
