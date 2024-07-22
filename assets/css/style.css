@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 * {
     padding: 0;
     margin: 0;
@@ -7,7 +6,6 @@
     list-style-type: none;
     box-sizing: border-box;
 }
-
 .container {
     max-width: 1140px;
     margin-left: auto;
@@ -15,7 +13,6 @@
     padding-left: 12px;
     padding-right: 12px;
 }
-
 .row {
     flex-direction: row;
     display: flex;
@@ -23,39 +20,30 @@
     margin-left: -12px;
     margin-right: -12px;
 }
-
 .flex-column {
     flex-direction: column;
 }
-
 .d-flex {
     display: flex;
 }
-
 .align-items-center {
     align-items: center;
 }
-
 .flex-column {
     flex-direction: column;
 }
-
 .min-vh-100 {
     min-height: 100vh;
 }
-
 .w-100 {
     width: 100%;
 }
-
 .justify-content-between {
     justify-content: space-between;
 }
-
 .gap-60 {
     gap: 60px;
 }
-
 .bg-image {
     background-image: url("../images/Rectangle\ 18.png");
     min-height: 100vh;
@@ -63,15 +51,12 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 section.layer>* {
     z-index: 1;
 }
-
 section.layer>nav {
     z-index: 2;
 }
-
 .event {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -79,11 +64,9 @@ section.layer>nav {
     text-align: left;
     color: #2C49FE;
 }
-
 .free {
     color: #01C8FF;
 }
-
 .home {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -94,7 +77,6 @@ section.layer>nav {
 .home:hover{
    font-weight: 600;
 }
-
 .btn {
     border-radius: 50px;
     border: 2px solid #2C49FE;
@@ -107,12 +89,10 @@ section.layer>nav {
     padding: 11px 28px;
     cursor: pointer;
 }
-
 .py-20 {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
 .heading {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -121,20 +101,16 @@ section.layer>nav {
     color: #ffffffff;
     width: 100%;
 }
-
 .pt-50 {
     padding-top: 50px;
 }
-
 .line {
     position: relative;
     white-space: nowrap;
 }
-
 .justify-content-center {
     justify-content: center;
 }
-
 .line::after {
     position: absolute;
     content: "";
@@ -145,7 +121,6 @@ section.layer>nav {
     bottom: -5px;
     right: 0;
 }
-
 .line::before {
     position: absolute;
     content: "";
@@ -157,7 +132,6 @@ section.layer>nav {
     right: 0;
     z-index: 1;
 }
-
 .lorem {
     font-family: 'Yantramanav', sans-serif;
     font-weight: 400;
@@ -167,7 +141,6 @@ section.layer>nav {
     max-width: 765px;
     margin-top: 18px;
 }
-
 .btn1 {
     border-radius: 50px;
     border: 2px solid #2C49FE;
@@ -181,15 +154,12 @@ section.layer>nav {
     cursor: pointer;
     white-space: nowrap;
 }
-
 .pt-40 {
     padding-top: 40px;
 }
-
 .gap-23 {
     gap: 23px;
 }
-
 .learn {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -201,13 +171,11 @@ section.layer>nav {
 .mb-150 {
     margin-bottom: 150px;
 }
-
 .col-3 {
     width: 25%;
     padding-left: 12px;
     padding-right: 12px;
 }
-
 .location {
     font-family: 'Yantramanav', sans-serif;
     font-weight: 500;
@@ -215,7 +183,6 @@ section.layer>nav {
     text-align: left;
     color: #FFFFFF;
 }
-
 .city {
     font-family: 'Yantramanav', sans-serif;
     font-weight: 400;
@@ -224,15 +191,12 @@ section.layer>nav {
     color: #FFFFFFB2;
     white-space: nowrap;
 }
-
 .ml-30 {
     margin-left: 30px;
 }
-
 .ml-17 {
     margin-left: 17px;
 }
-
 .line1 {
     border-left: 2px solid #FFFFFF;
     height: 80px;
@@ -240,7 +204,6 @@ section.layer>nav {
     width: 3px;
     margin-left: 15px;
 }
-
 .checkbtn {
     border-radius: 100px;
     border: 2px solid #FFFFFF;
@@ -253,30 +216,24 @@ section.layer>nav {
     white-space: nowrap;
     padding: 20px 40px;
 }
-
 .col-6 {
     width: 50%;
     padding-left: 12px;
     padding-right: 12px;
 }
-
 .line2 {
     max-width: 179px;
     height: 6px;
     background: linear-gradient(to right, #2C49FE 85%, #01C8FF 15%);
     margin-top: 75px;
 }
-
 .make {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     line-height: 72px;
     text-align: left;
     color: #000000;
-
-
 }
-
 .ipsum {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -285,13 +242,11 @@ section.layer>nav {
     color: #000000B2;
     max-width: 633px;
 }
-
 .col-4 {
     width: 33.33%;
     padding-left: 12px;
     padding-right: 12px;
 }
-
 .about-card {
     max-width: 260px;
     min-height: 198px;
@@ -300,16 +255,16 @@ section.layer>nav {
     margin-top: 50px;
     border: 2px solid #2C49FE;
 }
-
 .about-card:hover {
     background-color: #2C49FE;
 
-    .card-head,
-    .card-text {
+    .card-head{
+        color: white;
+    }
+    .card-text{
         color: white;
     }
 }
-
 .circle {
     max-width: 79px;
     height: 79px;
@@ -324,7 +279,6 @@ section.layer>nav {
     transform: translateX(-50%);
     background-color: white;
 }
-
 .card-head {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -332,7 +286,6 @@ section.layer>nav {
     text-align: center;
     color: #2C49FE;
 }
-
 .card-text {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -340,7 +293,6 @@ section.layer>nav {
     text-align: center;
     color: #2C49FE;
 }
-
 .bg-image1 {
     background-image: url(../images/girl.png);
     background-repeat: no-repeat;
@@ -348,7 +300,6 @@ section.layer>nav {
     min-height: 45vh;
     width: 100%;
 }
-
 .dolar {
     font-family: 'Poppins', sans-seri;
     font-weight: 700;
@@ -359,7 +310,6 @@ section.layer>nav {
     margin-left: auto;
     margin-right: auto;
 }
-
 .page1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -370,7 +320,6 @@ section.layer>nav {
     margin-left: auto;
     margin-right: auto;
 }
-
 .box {
     display: flex;
     justify-content: center;
@@ -380,11 +329,9 @@ section.layer>nav {
     width: 100%;
     padding-top: 50px;
 }
-
 .position-relative {
     position: relative;
 }
-
 .number {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -392,11 +339,9 @@ section.layer>nav {
     text-align: center;
     color: #FFFFFF;
 }
-
 .center-text-align{
     text-align: center;
 }
-
 .part {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -405,7 +350,6 @@ section.layer>nav {
     text-align: center;
     padding-bottom: 20px;
 }
-
 .event1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -413,7 +357,6 @@ section.layer>nav {
     text-align: left;
     color: #000000;
 }
-
 .page {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -422,7 +365,6 @@ section.layer>nav {
     color: #000000B2;
     padding-bottom: 15px;
 }
-
 .more {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -430,16 +372,13 @@ section.layer>nav {
     text-align: left;
     color: #000000;
 }
-
 .card1 {
     width: 100%;
     padding: 12px 12px;
 }
-
 .card1:hover {
     box-shadow: 2px 9px 32px 0px #0000000F;
 }
-
 .card-date {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -447,7 +386,6 @@ section.layer>nav {
     text-align: left;
     color: #000000B2;
 }
-
 .card-name {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -455,15 +393,12 @@ section.layer>nav {
     text-align: left;
     color: #000000;
 }
-
 .w-75 {
     width: 75%;
 }
-
 .mt-150 {
     margin-top: 150px;
 }
-
 .join {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -472,7 +407,6 @@ section.layer>nav {
     color: #000000;
     white-space: nowrap;
 }
-
 .join-text {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -482,7 +416,6 @@ section.layer>nav {
     margin-bottom: 15px;
     margin-top: 3px
 }
-
 .sign {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -491,7 +424,6 @@ section.layer>nav {
     color: #000000;
     margin-bottom: 8px;
 }
-
 .first {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -506,7 +438,6 @@ section.layer>nav {
     margin-bottom: 8px;
     width: 100%;
 }
-
 .email {
     width: 100%;
     height: 42px;
@@ -519,15 +450,12 @@ section.layer>nav {
     padding-left: 17px;
     margin-bottom: 6px;
 }
-
 .gap-16 {
     gap: 16px;
 }
-
 textarea {
     resize: none;
 }
-
 textarea[id="massege"] {
     width: 100%;
     height: 124px;
@@ -541,7 +469,6 @@ textarea[id="massege"] {
     padding-left: 17px;
     margin-bottom: 10px;
 }
-
 .btn2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -555,30 +482,24 @@ textarea[id="massege"] {
     width: 100%;
     margin-bottom: 20px;
 }
-
 .py-50 {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-
 .py-70 {
     padding-top: 70px;
     padding-bottom: 90px;
 }
-
 .backg-black {
     background: #000000;
 }
-
 .col-5 {
     width: 41.66%;
     padding-left: 12px;
     padding-right: 12px;
 }
-
 .f-text {
     font-family: 'Poppins', sans-serif;
-
     font-weight: 400;
     line-height: 21px;
     text-align: left;
@@ -587,11 +508,9 @@ textarea[id="massege"] {
     padding-bottom: 24px;
     max-width: 310px;
 }
-
 .gap-15 {
     gap: 15px;
 }
-
 footer ul li:first-child {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -601,7 +520,6 @@ footer ul li:first-child {
     margin-bottom: 20px;
     margin-top: 20px;
 }
-
 footer ul li:not(:first-child) a {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -612,18 +530,14 @@ footer ul li:not(:first-child) a {
     margin-bottom: 8px;
     position: relative;
 }
-
 .py-100 {
     padding-top: 100px;
-
 }
-
 .col-7 {
     width: 58.33%;
     padding-left: 12px;
     padding-right: 12px;
 }
-
 .gallery {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -633,9 +547,7 @@ footer ul li:not(:first-child) a {
     margin-bottom: 20px;
     margin-top: 20px;
 }
-
 .more1 {
-
     height: 62px;
     background: #2D3CAE87;
     font-family: "Poppins", sans-serif;
@@ -649,11 +561,9 @@ footer ul li:not(:first-child) a {
     justify-content: center;
     width: 100%;
 }
-
 .pb-14 {
     padding-bottom: 14px;
 }
-
 .company {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -664,13 +574,11 @@ footer ul li:not(:first-child) a {
     align-items: center;
     display: flex;
     justify-content: center;
-    padding-bottom: 30px;
+    padding-bottom: 30px;  
 }
-
 .bg-blue1 {
     position: relative;
 }
-
 .bg-blue1::after {
     content: "";
     position: absolute;
@@ -681,53 +589,41 @@ footer ul li:not(:first-child) a {
     left: 0;
     right: 0;
 }
-
-
 .z-index-2 {
     z-index: 1;
 }
-
 .col-12 {
     width: 100%;
     padding-left: 12px;
     padding-right: 12px;
 }
-
 .bg-blue {
     background: #2C49FEBD;
 }
-
 .card-box {
     border-radius: 100px;
     padding: 20px;
     width: 100%;
 }
-
 .padding-24 {
     padding: 24px;
 }
-
 .flex-row {
     flex-direction: row;
 }
-
 .flex-wrap {
     flex-wrap: wrap;
 }
-
 .py-8 {
     padding-top: 8px;
     padding-bottom: 8px;
 }
-
 .mb-24 {
     margin-bottom: 24px;
 }
-
 .pr-20 {
     padding-right: 20px;
 }
-
 .cardbtn {
     border-radius: 100px;
     padding: 10px 20px;
@@ -739,15 +635,12 @@ footer ul li:not(:first-child) a {
     line-height: 30px;
     text-align: left;
 }
-
 .flex-grow-1 {
     flex-grow: 1;
 }
-
 .dark {
     color: #FFFFFF;
 }
-
 .dark::after {
     content: "";
     position: absolute;
@@ -758,21 +651,16 @@ footer ul li:not(:first-child) a {
     transition: all 100ms linear;
     background-color: white;
 }
-
-
 .dark:hover::after {
     width: 100%;
     left: 0;
 }
-
 .dark:hover {
     color: #01C8FF;
 }
-
 .layer {
     position: relative;
 }
-
 .layer::after {
     background-color: #00000091;
     content: '';
@@ -782,11 +670,9 @@ footer ul li:not(:first-child) a {
     position: absolute;
     left: 0%;
 }
-
 .z-index-1 {
     z-index: 1;
 }
-
 @media (max-width:992px) {
     label[for="menubar"] {
         width: 30px;
@@ -799,14 +685,12 @@ footer ul li:not(:first-child) a {
         position: relative;
         z-index: 3;
     }
-
     label[for="menubar"]>span {
         width: 100%;
         height: 5px;
         background-color: #2C49FE;
         border-radius: 2px;
     }
-
     ul.mobile-view {
         display: flex;
         flex-direction: column;
@@ -820,12 +704,10 @@ footer ul li:not(:first-child) a {
         left: -100%;
         transition: all 200ms linear;
     }
-
     input[type="checkbox"]:checked~ul {
         left: 0;
     }
 }
-
 @media (min-width:576px) {
     .col-sm-6 {
         width: 50%;
@@ -833,71 +715,57 @@ footer ul li:not(:first-child) a {
         padding-right: 12px;
     }
 }
-
 @media (min-width:768px) {
     .col-md-4 {
         width: 33.33%;
         padding-right: 12px;
         padding-left: 12px;
     }
-
     .col-md-9 {
         width: 75%;
         padding-left: 12px;
         padding-right: 12px;
     }
-
     .border-md-both {
         border-left: 2px solid white;
         border-right: 2px solid white;
     }
 }
-
 @media (min-width:992px) {
     .col-lg-3 {
         width: 25%;
         padding-right: 12px;
         padding-left: 12px;
     }
-
     .col-lg-6 {
         width: 50%;
         padding-left: 12px;
         padding-right: 12px;
     }
-
     .col-lg-5 {
         width: 41.66%;
         padding-left: 12px;
         padding-right: 12px;
     }
-
     .col-lg-7 {
         width: 58.33%;
         padding-left: 12px;
         padding-right: 12px;
     }
-
     .mb-lg-0 {
         margin-bottom: 0;
     }
-
     .border-lg-right {
         border-right: 2px solid white;
     }
-
     .justify-content-lg-end {
         justify-content: end;
     }
 }
-
 @media (min-width:576px)and (max-width:768px) {
-
-
     .card {
         position: relative;
     }
-
     .card::after {
         content: "";
         position: absolute;
@@ -908,7 +776,6 @@ footer ul li:not(:first-child) a {
         background-color: white;
         transform: translateY(-50%);
     }
-
     .card::before {
         content: "";
         position: absolute;
