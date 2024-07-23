@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,26 +13,27 @@
 
 <body>
   <section class="bg-image d-flex flex-column layer">
-    <nav class="container w-100 py-20 position-relative">
-      <div class="d-flex align-items-center justify-content-between">
-        <div class="d-flex align-items-center">
-          <img src="assets/images/logoimage.png" alt="logoimage" class="w-100">
-          <h2 class="event">Events<span class="free">Free</span></h2>
+    <nav class=" w-100 py-20 fixed">
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-between">
+          <div class="d-flex align-items-center">
+            <img src="assets/images/logoimage.png" alt="logoimage" class="w-100">
+            <h2 class="event">Events<span class="free">Free</span></h2>
+          </div>
+          <input type="checkbox" id="menubar" hidden>
+          <label for="menubar">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+          <ul class="d-flex align-items-center gap-60 mobile-view overflowhidden">
+            <li><a href="" class="home">HOME</a></li>
+            <li><a href="" class="home">EVENTS</a></li>
+            <li><a href="" class="home">FEED</a></li>
+            <li><a href="" class="home">USER NAME</a></li>
+            <li><button class="btn">Log Out</button></li>
+          </ul>
         </div>
-        <input type="checkbox" id="menubar" hidden>
-        <label for="menubar">
-          <span></span>
-          <span></span>
-          <span></span>
-        </label>
-
-        <ul class="d-flex align-items-center gap-60 mobile-view overflowhidden">
-          <li><a href="" class="home">HOME</a></li>
-          <li><a href="" class= "home">EVENTS</a></li>
-          <li><a href="" class="home">FEED</a></li>
-          <li><a href="" class="home">USER NAME</a></li>
-          <li><button class="btn">Log Out</button></li>
-        </ul>
       </div>
     </nav>
     <div class="d-flex flex-grow-1 align-items-center pt-50 position-relative ">
@@ -414,6 +415,7 @@
     <p class="company "> © Credits of companyName belong to companyName.</p>
 
   </footer>
+  <script src="assets/js/js.js"></script>
 </body>
 
 </html>
