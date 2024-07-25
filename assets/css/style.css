@@ -9,7 +9,7 @@
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 1320px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 12px;
@@ -22,6 +22,22 @@
     flex-wrap: wrap;
     margin-left: -12px;
     margin-right: -12px;
+}
+
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+/* ----------------comman classes------------------- */
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
 }
 
 .flex-column {
@@ -52,24 +68,82 @@
     justify-content: space-between;
 }
 
-.gap-60 {
-    gap: 60px;
+.justify-content-center {
+    justify-content: center;
+}
+
+.position-relative {
+    position: relative;
+}
+
+/* ----------------comman classes end------------------- */
+/* --------------hero section-------------------- */
+.fixed {
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    width: 100%;
+}
+
+.cardbtn {
+    border-radius: 100px;
+    padding: 20px 25px;
+    border: none;
+    background-color: white;
+    color: #2C49FE;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+
 }
 
 .bg-image {
-    background-image: url("../images/Rectangle\ 18.png");
+    background-image: url("../images/heroimage.png");
     min-height: 100vh;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+.py-8 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
 section.layer>* {
     z-index: 1;
 }
 
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.pr-20 {
+    padding-right: 20px;
+}
+
 section.layer>nav {
     z-index: 2;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.layer {
+    position: relative;
+}
+
+.layer::after {
+    background-color: #00000091;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    position: absolute;
+    left: 0%;
 }
 
 .event {
@@ -109,6 +183,18 @@ section.layer>nav {
     cursor: pointer;
 }
 
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.gap-60 {
+    gap: 60px;
+}
+
 .py-20 {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -123,18 +209,11 @@ section.layer>nav {
     width: 100%;
 }
 
-.pt-50 {
-    padding-top: 50px;
-}
-
 .line {
     position: relative;
     white-space: nowrap;
 }
 
-.justify-content-center {
-    justify-content: center;
-}
 
 .line::after {
     position: absolute;
@@ -159,7 +238,7 @@ section.layer>nav {
     z-index: 1;
 }
 
-.lorem {
+.heading-text {
     font-family: 'Yantramanav', sans-serif;
     font-weight: 400;
     line-height: 25.94px;
@@ -183,14 +262,6 @@ section.layer>nav {
     white-space: nowrap;
 }
 
-.pt-40 {
-    padding-top: 40px;
-}
-
-.gap-23 {
-    gap: 23px;
-}
-
 .learn {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -200,14 +271,26 @@ section.layer>nav {
     white-space: nowrap;
 }
 
-.mb-150 {
-    margin-bottom: 150px;
+.pt-40 {
+    padding-top: 40px;
 }
 
-.col-3 {
-    width: 25%;
-    padding-left: 12px;
-    padding-right: 12px;
+.gap-23 {
+    gap: 23px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.bg-blue {
+    background: #2C49FEBD;
+}
+
+.card-box {
+    border-radius: 100px;
+    padding: 20px;
+    width: 100%;
 }
 
 .location {
@@ -227,49 +310,20 @@ section.layer>nav {
     white-space: nowrap;
 }
 
-.ml-30 {
-    margin-left: 30px;
-}
-
-.ml-17 {
-    margin-left: 17px;
-}
-
-.line1 {
-    border-left: 2px solid #FFFFFF;
-    height: 80px;
-    background-color: #FFFFFF;
-    width: 3px;
-    margin-left: 15px;
-}
-
-.checkbtn {
-    border-radius: 100px;
-    border: 2px solid #FFFFFF;
-    background-color: #FFFFFF;
-    color: #2C49FE;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    line-height: 30px;
-    text-align: left;
-    white-space: nowrap;
-    padding: 20px 40px;
-}
-
-.col-6 {
-    width: 50%;
-    padding-left: 12px;
-    padding-right: 12px;
+/* --------------hero section end-------------------- */
+/* ---------------------make special section ------------------------- */
+.mb-73 {
+    margin-bottom: 73px;
 }
 
 .line2 {
     max-width: 179px;
     height: 6px;
     background: linear-gradient(to right, #2C49FE 85%, #01C8FF 15%);
-    margin-top: 75px;
+    margin-top: 10px;
 }
 
-.make {
+.special-head {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     line-height: 72px;
@@ -277,83 +331,121 @@ section.layer>nav {
     color: #000000;
 }
 
-.ipsum {
+.special-text {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
     color: #000000B2;
-    max-width: 633px;
+    padding-bottom: 15px;
 }
 
-.col-4 {
-    width: 33.33%;
-    padding-left: 12px;
-    padding-right: 12px;
-}
+.box1:hover {
+    background: rgba(44, 73, 254, 1);
 
-.about-card {
-    max-width: 260px;
-    min-height: 198px;
-    border-radius: 5px;
-    background: white;
-    margin-top: 50px;
-    border: 2px solid #2C49FE;
-}
-
-.about-card:hover {
-    background-color: #2C49FE;
-
-    .card-head {
+    .box-head {
         color: white;
     }
 
-    .card-text {
+    .box-text {
         color: white;
     }
 }
 
-.circle {
-    max-width: 79px;
-    height: 79px;
-    position: relative;
-    border-radius: 100%;
-    border: 2px solid #2C49FE;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    left: 50%;
-    bottom: 40px;
-    transform: translateX(-50%);
-    background-color: white;
-}
-
-.card-head {
-    font-family: 'Poppins', sans-serif;
+.box-head {
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
     line-height: 37.5px;
     text-align: center;
-    color: #2C49FE;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 45px;
+    color: rgba(44, 73, 254, 1);
+
 }
 
-.card-text {
-    font-family: 'Poppins', sans-serif;
+.box-text {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--fs-sm1);
     font-weight: 400;
     line-height: 24px;
     text-align: center;
-    color: #2C49FE;
+    color: rgba(255, 255, 255, 1);
+    margin: auto;
+    color: rgba(45, 60, 174, 1);
 }
+
+.py-70 {
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+
+.circle-svg {
+    width: 79.2px;
+    height: 79.2px;
+    border: 3.3px solid #FFFFFF;
+    border-radius: 50px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.box1 {
+    min-height: 198px;
+    border-radius: 5px;
+    border: 2px solid rgba(44, 73, 254, 1);
+    position: relative;
+    margin-top: 45px;
+    background-color: white;
+}
+
+.box2 {
+    border: 2px solid rgba(44, 73, 254, 1);
+    padding: 15px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    bottom: 80%;
+    left: 35%;
+    margin-top: 10px;
+}
+
+/* ---------------------make special section end -------------------------*/
+/* ---------------------after-before section ------------------------- */
 
 .bg-image1 {
     background-image: url(../images/girl.png);
     background-repeat: no-repeat;
     background-position: center;
     min-height: 45vh;
-    width: 100%;
+    background-size: cover;
 }
 
-.dolar {
-    font-family: 'Poppins', sans-seri;
+.bg-blue1 {
+    position: relative;
+}
+
+.bg-blue1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    background-color: #556CFD;
+    opacity: 0.9;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.z-index-1 {
+    z-index: 1;
+}
+
+.image-head {
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     line-height: 62.4px;
     text-align: center;
@@ -363,7 +455,7 @@ section.layer>nav {
     margin-right: auto;
 }
 
-.page1 {
+.image-text {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     line-height: 24px;
@@ -384,8 +476,8 @@ section.layer>nav {
     padding-top: 50px;
 }
 
-.position-relative {
-    position: relative;
+.center-text-align {
+    text-align: center;
 }
 
 .number {
@@ -394,10 +486,6 @@ section.layer>nav {
     line-height: 52.5px;
     text-align: center;
     color: #FFFFFF;
-}
-
-.center-text-align {
-    text-align: center;
 }
 
 .part {
@@ -409,27 +497,25 @@ section.layer>nav {
     padding-bottom: 20px;
 }
 
-.event1 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    line-height: 65.52px;
-    text-align: left;
-    color: #000000;
+.pt-40 {
+    padding-top: 40px;
 }
 
-.page {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    color: #000000B2;
-    padding-bottom: 15px;
-}
+/*---------------------after-before section end ------------------------- */
+/*---------------------form section -------------------------*/
 
 .more {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     line-height: 24px;
+    text-align: left;
+    color: #000000;
+}
+
+.main-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 65.52px;
     text-align: left;
     color: #000000;
 }
@@ -457,14 +543,6 @@ section.layer>nav {
     line-height: 36px;
     text-align: left;
     color: #000000;
-}
-
-.w-75 {
-    width: 75%;
-}
-
-.mt-150 {
-    margin-top: 150px;
 }
 
 .join {
@@ -506,7 +584,7 @@ section.layer>nav {
     border: 1px solid #00000066;
     padding-left: 17px;
     padding-right: 17px;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
     width: 100%;
 }
 
@@ -520,7 +598,7 @@ section.layer>nav {
     border-radius: 5px;
     border: 1px solid #00000066;
     padding-left: 17px;
-    margin-bottom: 6px;
+    margin-bottom: 16px;
 }
 
 .gap-16 {
@@ -542,7 +620,7 @@ textarea[id="massege"] {
     color: #000000B2;
     padding-top: 10px;
     padding-left: 17px;
-    margin-bottom: 10px;
+    margin-bottom: 36px;
 }
 
 .btn2 {
@@ -557,26 +635,14 @@ textarea[id="massege"] {
     height: 46px;
     width: 100%;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
-.py-50 {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.py-70 {
-    padding-top: 70px;
-    padding-bottom: 90px;
-}
+/*---------------------form section end------------------------- */
+/* ---------------------footer section ------------------------- */
 
 .backg-black {
     background: #000000;
-}
-
-.col-5 {
-    width: 41.66%;
-    padding-left: 12px;
-    padding-right: 12px;
 }
 
 .f-text {
@@ -594,16 +660,6 @@ textarea[id="massege"] {
     gap: 15px;
 }
 
-footer ul li:first-child {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    line-height: 21px;
-    text-align: left;
-    color: #FFFFFF;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
 footer ul li:not(:first-child) a {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -619,12 +675,6 @@ footer ul li:not(:first-child) a {
     padding-top: 100px;
 }
 
-.col-7 {
-    width: 58.33%;
-    padding-left: 12px;
-    padding-right: 12px;
-}
-
 .gallery {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -636,7 +686,7 @@ footer ul li:not(:first-child) a {
 }
 
 .more1 {
-    height: 62px;
+    height: 100%;
     background: #2D3CAE87;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -650,10 +700,6 @@ footer ul li:not(:first-child) a {
     width: 100%;
 }
 
-.pb-14 {
-    padding-bottom: 14px;
-}
-
 .company {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -665,82 +711,6 @@ footer ul li:not(:first-child) a {
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
-}
-
-.bg-blue1 {
-    position: relative;
-}
-
-.bg-blue1::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    background-color: #556CFD;
-    opacity: 0.9;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-.z-index-2 {
-    z-index: 1;
-}
-
-.col-12 {
-    width: 100%;
-    padding-left: 12px;
-    padding-right: 12px;
-}
-
-.bg-blue {
-    background: #2C49FEBD;
-}
-
-.card-box {
-    border-radius: 100px;
-    padding: 20px;
-    width: 100%;
-}
-
-.padding-24 {
-    padding: 24px;
-}
-
-.flex-row {
-    flex-direction: row;
-}
-
-.flex-wrap {
-    flex-wrap: wrap;
-}
-
-.py-8 {
-    padding-top: 8px;
-    padding-bottom: 8px;
-}
-
-.mb-24 {
-    margin-bottom: 24px;
-}
-
-.pr-20 {
-    padding-right: 20px;
-}
-
-.cardbtn {
-    border-radius: 100px;
-    padding: 10px 20px;
-    border: 2px solid #2C49FEBD;
-    background-color: white;
-    color: #2C49FE;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    line-height: 30px;
-    text-align: left;
-}
-
-.flex-grow-1 {
-    flex-grow: 1;
 }
 
 .dark {
@@ -767,30 +737,20 @@ footer ul li:not(:first-child) a {
     color: #01C8FF;
 }
 
-.layer {
-    position: relative;
-}
-
-.layer::after {
-    background-color: #00000091;
-    content: '';
-    height: 100%;
-    width: 100%;
-    top: 0%;
-    position: absolute;
-    left: 0%;
-}
-
 .z-index-1 {
     z-index: 1;
 }
-.fixed {
-    position: fixed;
-    z-index: 5;
-    top: 0;
-    width: 100%;
+
+.col-4 {
+    width: 33.33%;
+    padding-right: 12px;
+    padding-left: 12px;
 }
 
+/*---------------------footer section end------------------------- */
+
+
+/* ------------------responsive start------------------ */
 @media (max-width:992px) {
     label[for="menubar"]>span {
         transition: all 200ms linear;
@@ -847,6 +807,7 @@ footer ul li:not(:first-child) a {
     input[type="checkbox"]:checked~ul {
         left: 0;
     }
+
 }
 
 @media (min-width:576px) {
@@ -940,4 +901,18 @@ footer ul li:not(:first-child) a {
         background-color: white;
         transform: translateX(-50%);
     }
+
+    .col-sm-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
 }
+
+@media (min-width:576px) and (max-width:768px) {
+    .box2 {
+        left: 45%;
+    }
+}
+
+/* --------------------responsive end-------------------------- */

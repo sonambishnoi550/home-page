@@ -9,8 +9,9 @@
     --fs-2lg: 25px;
     --fs-xl: 35px;
     --fs-xxl: 20px;
-    --fs-2xl: 48px;
+    --fs-2xl: 20px;
     --fs-3xl:36px;
+    --blue: 
 }
 
 /*font size */
@@ -26,7 +27,7 @@
 .heading{
     font-size: var(--fs-3xl);
 }
-.lorem{
+.heading-text{
     font-size:var(--fs-lg);
 }
 .btn1 {
@@ -44,22 +45,22 @@
 .cardbtn{
     font-size: var(--fs-lg);
 }
-.make {
+.special-head {
     font-size: var(--fs-2xl);
 }
-.page {
+.special-text {
     font-size: var(--fs-mmd);
 }
-.card-head {
+.card-heading {
     font-size: var(--fs-2lg);
 }
 .card-text {
     font-size: var(--fs-mmd);
 }
-.dolar {
+.image-head {
     font-size: var(--fs-2xl);
 }
-.page1{
+.image-text{
     font-size: var(--fs-mmd);
 }
 .number {
@@ -68,7 +69,7 @@
 .part{
     font-size: var(--fs-2md);
 }
-.event1 {
+.main-heading {
     font-size: var(--fs-2xl);
 }
 .more {
@@ -98,10 +99,32 @@
 .company {
     font-size: var(--fs-md);
 }
+.first{
+    font-size: var(--fs-mmd);
+}
+.gallery {
+    font-size: var(--fs-md);
+}
+.email{
+    font-size: var(--fs-mmd);
+}
+.massege{
+    font-size: var(--fs-mmd);
+}
+textarea[id="massege"] {
+    font-size: var(--fs-mmd);
+}
+.box-head{
+    font-size: var(--fs-2lg);
+}
+.box-text{
+    font-size: var(--fs-mmd);
+}
 @media(min-width:576px){
  :root{
     --fs-xxl: 36px;
     --fs-3xl: 64px;
     --fs-lg: 20px;
+    --fs-2xl: 48px;
 }
 }
